@@ -96,9 +96,9 @@ Um das Script automatisch jede Woche auszuführen und eine E-Mail zu versenden, 
    ```
 3. Fügen Sie die folgende Zeile am Ende der Datei hinzu:
    ```
-   0 18 * * 0 /usr/bin/php /pfad/zu/ihrem/script/notify-aktuell.php
+   0 18 * * 0 /usr/bin/php /pfad/zu/waste.php
    ```
-   Ersetzen Sie `/pfad/zu/ihrem/script/` mit dem tatsächlichen Pfad zu Ihrem Script.
+   Ersetzen Sie `/pfad/zu/` mit dem tatsächlichen Pfad zu Ihrem Script.
 4. Speichern und schließen Sie die Datei.
 
 Erklärung der Cron-Syntax:
@@ -116,7 +116,7 @@ Diese Einstellung führt das Script jeden Sonntag um 18:00 Uhr aus.
 Führen Sie das Script manuell aus oder richten Sie einen Cron-Job ein, um es regelmäßig auszuführen:
 
 ```bash
-php pfad/zu/notify-aktuell.php
+php pfad/zu/waste.php
 ```
 
 ## 🛠️ Anpassung
